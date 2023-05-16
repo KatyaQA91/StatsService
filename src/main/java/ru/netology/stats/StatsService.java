@@ -8,8 +8,9 @@ public class StatsService {
             if (sales[i] <= sales[minMonth]) {
                 minMonth = i;
             }
-        }
 
+        }
+        return minMonth;
     }
 
     public int maxSales(long[] sales) {
